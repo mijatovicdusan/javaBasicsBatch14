@@ -1,0 +1,73 @@
+Type Casting( primitive data type )
+
+	Type casting is converting one data type to another type.
+	For example we can convert a short to byte a long to float etc.
+	There are two main types: implicit/widening/automatic 
+							  AND 
+							  explicit/narrowing/manual
+	
+Implicit/widening/automatic Type casting
+	When Java converts data types automatically for us? Only when we assign smaller data type to a larger data type,
+	because there is no data loss in this conversion.
+	
+Explicit/narrowing/Manual type casting:
+	When we convert a larger data type to a smaller data type it is called Explicit/narrowing/Manual.
+	It does not happen automatically, we need to do it explicitly manually.
+	
+Why should we learn type casting?
+	When we write code in real life most of the time we use the code from others to save time and we also need to convert
+	data types to make our code compatible with their code.
+	
+What is the syntax for type casting?
+	We use () and inside () we write destination data type, for example if we want to convert long in to an int this is
+	how we can do it.
+	
+	long var1=250;
+	int var2=(int)var1; -------> this is Explicit/narrowing/Manual = larger to smaller
+	
+	double var3=var2; ---------> this is Implicit/widening/automatic = smaller to larger
+	
+	
+	========================================================================================================================
+	
+	
+If Else Conditions
+	If else conditions help us write code that can take the decisions based on data.
+	
+Why should we learn about these conditions?
+	Because when we are solving real life problem like testing a website our program need to make a lot of decisions.
+	
+	IF (given username and password match) {go to home page}
+	ELSE {give user a warning}
+	
+What is the syntax for IF conditions
+
+	boolean isHungry=true;
+	
+	if(isHungry) {
+	system.out.println("Please eat something")
+	}
+	else{ 
+	System.out.println("lets build some java programs")
+	}
+
+	
+	if condition ->
+	if else conditions ->
+	if else if conditions ->
+	nested if else condition ->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
